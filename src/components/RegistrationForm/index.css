@@ -1,0 +1,55 @@
+/* Write your CSS code here */
+.heading {
+  color: #ea580c;
+  font-weight: bold;
+}
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.form-container {
+  background-color: white;
+  box-shadow: 1px 1px 2px 2px #cbd2d9;
+  border-radius: 8px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.label {
+  color: #475569;
+  font-weight: bold;
+  font-size: 10px;
+}
+.input {
+  padding: 5px;
+  width: 300px;
+  border-color: #cbd2d9;
+  border-style: solid;
+  border-radius: 3px;
+  color: #9aa5b1;
+}
+.error {
+  color: #ff0b37;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 10px;
+}
+.error-style {
+  background-color: #fef2f4;
+  border-color: #ff0b37;
+}
+button {
+  background-color: #ea580c;
+  color: white;
+  border-style: none;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
